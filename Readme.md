@@ -1,0 +1,1 @@
+"recuerda que git remote origin + la direccion es para conectar tu repositorio local a github"
