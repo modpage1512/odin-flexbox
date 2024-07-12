@@ -3,12 +3,19 @@
     font-family: "Roboto";
 }
 
+/*estilos base*/
+
+div {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 header, footer {
     background-color: #1F2937;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: bold;
     color: #F9FAF8;
 }
@@ -21,4 +28,64 @@ h1 {
 .header-info-container p {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/*estilos header navbar*/
+.header-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header-logo {
+ flex: 1;
+}
+
+.header-navbar-menu{
+    flex: 1;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 150px;
+}
+
+.header-menu li {
+    padding: 5px;
+    color: #E5E7EB;
+    list-style: none;
+    font-size: 20px;
+}
+
+.header-logo-title {
+    font-size: 25px;
+}
+
+/*header info, incluye texto y placeholder image*/
+
+.header-info {
+    display: flex;
 }
